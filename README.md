@@ -56,16 +56,15 @@ python manage.py migrate
 
 # 4️⃣ Launch the local server
 python manage.py runserver
+```
 
-
-
-💻 Technology Stack
+## 💻 Technology Stack
 
 Frontend: HTML, CSS, JavaScript, Figma
 Backend: Django (Python)
 Database: SQLite3
 
-🪄 Highlights
+## 🪄 Highlights
 
 Interactive questionnaire system
 
@@ -76,18 +75,18 @@ Clean and responsive UI
 Cultural and holistic health approach
 
 
-📜 License
+## 📜 License
 
 This project is licensed under the Apache License 2.0.
 For more details, refer to the LICENSE
  file included with this project.
 
-🧩 Documentation
+## 🧩 Documentation
 
 For a deeper understanding of how AyurVichar works:
 👉 Read the Full Documentation
 
-💬 Feedback
+## 💬 Feedback
 
 We’d love to hear from you!
 For suggestions, improvements, or collaborations, contact:
