@@ -1,0 +1,61 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block title %} About {% endblock title %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}">
+<link rel="stylesheet" href="{% static 'css/responsive.css' %}">
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+{% endblock head %}
+
+{% block main %}
+<main class="about">
+    <section class="who-we-are">
+        <h1 class="font-ex-large">Who we are...</h1>
+        <span class="font-normal">AyuVichar is committed to redefining wellness by harmonizing the timeless wisdom of Ayurveda with the innovation of modern technology.
+            Our mission is to bridge the gap between ancient holistic traditions and today’s fast-paced lifestyles providing individuals with a personalized path to balanced health.
+            By focusing on natural healing, self-awareness, and preventive care, AyuVichar empowers users to make mindful choices that nurture both body and mind.
+            Through this fusion of tradition and technology, we aim to inspire a deeper connection with one’s inner well-being and promote a sustainable approach to healthy living..</span>
+        <span href="" class="btn-border">Know More</span>
+    </section>
+    <section class="why-we-exist">
+        <h1 class="font-ex-large">Why we Exist...</h1>
+        <span class="font-normal">AyuVichar is founded on the belief that true wellness is deeply personal.
+            Through the lens of Ayurveda, we aim to restore the importance of individualized health by embracing each person’s unique Prakriti — their natural constitution.
+            Our vision is to blend ancient Ayurvedic wisdom with modern health needs, offering a holistic path that helps individuals reclaim vitality, balance, and harmony in their everyday lives.</span>
+        <span href="" class="btn-border">Start Working With Us</span>
+    </section>
+    <section class="why-we-exist">
+        <h1 class="font-ex-large">how can help you...</h1>
+        <span class="font-normal">At AyuVichar, we help you understand your unique Ayurvedic constitution (Prakriti).
+            Our platform offers personalized lifestyle and wellness guidance rooted in ancient wisdom.
+            We combine traditional Ayurveda with modern technology for easy, accessible insights.
+            Through self-assessment and tailored recommendations, we guide you toward balance and vitality.
+            With AyuVichar, taking charge of your well-being becomes simple, mindful, and empowering.</span>
+        <span href="" class="btn-border">Start Working With Us</span>
+    </section>
+    <section class="philosophy">
+        <h1 class="font-ex-large">Our Philosophy</h1>
+        <div>
+            <div>Balance</div>
+            <div>Harmony</div>
+        </div>
+        <div>
+            <div>Holism</div>
+            <div>Prevention</div>
+            <div>Vitality</div>
+        </div>
+        <div class="bg-stickers-about">
+            <img src="{% static 'img/pot.png' %}" class="bg-1-about" alt="background-sticker">
+        </div>
+    </section>
+</main>
+
+{% endblock main %}
+
+{% block script %}
+<script src="{% static 'js/script.js' %}"></script>
+{% endblock script %}
