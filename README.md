@@ -58,6 +58,7 @@ python manage.py migrate
 python manage.py runserver
 
 
+
 💻 Technology Stack
 
 Frontend: HTML, CSS, JavaScript, Figma
@@ -74,7 +75,6 @@ Clean and responsive UI
 
 Cultural and holistic health approach
 
-🖼️ Preview
 
 📜 License
 
